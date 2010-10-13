@@ -2,3 +2,5 @@ libftphack is a Sony PS3 SDK libftp hack to use / as FTP home instead of /dev_hd
 
 !!!WARNING!!!
 You cannot use the literal string "/dev_hdd0/game/%s" in your homebrew, you have to use "/dev_hdd0/game/%s/" instead.
+
+Repository: http://github.com/drizztbsd/libftphack
