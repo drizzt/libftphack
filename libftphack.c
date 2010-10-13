@@ -36,9 +36,9 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 
-	if (fread(buf, len, 1, fid) < (size_t) len)
+	if (fread(buf, len, 1, fid) <= 0)
 	{
-		perror("fread");
+		fputs("fread: failed\n", stderr);
 		fclose(fid);
 		exit(EXIT_FAILURE);
 	}
