@@ -1,0 +1,8 @@
+libftphack
+*.o
+.deps/
+autom4te.cache/
+Makefile
+config.log
+config.status
+stamp-h1
